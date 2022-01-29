@@ -27,5 +27,6 @@ plot(dnorm, -3, +3,
      ylab = "Density")
 
 
-
-
+p_unload(all)
+detach("package:datasets", unload = TRUE)
+cat("\014")
